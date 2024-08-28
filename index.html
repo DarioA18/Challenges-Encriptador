@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="img\logo.png" alt="Logo" class="logo">
+        </div>
+
+        <div class="left-panel">
+            <h1 class="title">Encriptador</h1>
+            <textarea id="input-text" placeholder="Ingrese el texto aquí"></textarea>
+            <p class="info">⚠️ Solo letras minúsculas y sin acentos.</p>
+            <div class="button-group">
+                <button id="encriptar-btn">Encriptar</button>
+                <button id="desencriptar-btn">Desencriptar</button>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div id="mensaje-placeholder">
+                <img src="img\muneco.png" alt="Imagen" id="placeholder-img">
+                <p class="message">Ningún mensaje fue encontrado</p>
+                <p class="message_2">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div id="resultado-contenedor" class="hidden">
+                <textarea id="texto-salida" readonly></textarea>
+                <button id="copiar-btn">Copiar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <span class="nombre">⚡Desarrollado por Dario Amaya en el curso</span> <span class="curso">Principiante en Programación G7 - ONE</span> <span class="nombre">(27/08/2024) </span>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
